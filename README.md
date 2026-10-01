@@ -18,6 +18,25 @@ Quando uma condição anormal é identificada, o Node-RED gera automaticamente u
 
 O sistema também envia relatórios periódicos com os valores atuais das principais variáveis monitoradas.
 
+
+## Arquitetura do Sistema - 02
+A Figura 1 apresenta a arquitetura geral do sistema de monitoramento.
+Os dados são obtidos do ThingSpeak, processados no Node-RED e utilizados
+para monitoramento de RSSI, RTT, ACK, ausência de pacotes e geração de
+relatórios periódicos, com envio de notificações ao Telegram.
+
+
+
+<p align="center">
+  <img src="docs/arquitetura_de_monitoramento_iot_via_telegram.png" 
+       alt="Arquitetura de Monitoramento" 
+       width="900">
+</p>
+
+<p align="center">
+  <em>Figura 1 – Arquitetura de monitoramento baseada em ThingSpeak, Node-RED e Telegram.</em>
+</p>
+
 ## O fluxo de nós no NodeRED
 O fluxo é composto pelos seguintes blocos principais:
 
@@ -45,24 +64,6 @@ O fluxo é composto pelos seguintes blocos principais:
 </p>
 
 
-
-## Arquitetura do Sistema - 02
-A Figura 1 apresenta a arquitetura geral do sistema de monitoramento.
-Os dados são obtidos do ThingSpeak, processados no Node-RED e utilizados
-para monitoramento de RSSI, RTT, ACK, ausência de pacotes e geração de
-relatórios periódicos, com envio de notificações ao Telegram.
-
-
-
-<p align="center">
-  <img src="docs/arquitetura_de_monitoramento_iot_via_telegram.png" 
-       alt="Arquitetura de Monitoramento" 
-       width="900">
-</p>
-
-<p align="center">
-  <em>Figura 1 – Arquitetura de monitoramento baseada em ThingSpeak, Node-RED e Telegram.</em>
-</p>
 
 ## Arquitetura do Sistema - 04
 
