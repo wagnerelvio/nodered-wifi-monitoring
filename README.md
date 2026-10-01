@@ -17,7 +17,20 @@ As principais variáveis supervisionadas são:
 Quando uma condição anormal é identificada, o Node-RED gera automaticamente uma mensagem e a encaminha para o usuário por meio de um bot do Telegram.
 
 O sistema também envia relatórios periódicos com os valores atuais das principais variáveis monitoradas.
-## Arquitetura do Sistema
+
+## Arquitetura do Sistema - 02
+
+<p align="center">
+  <img src="docs/arquitetura_de_monitoramento_iot_via_telegram.png" 
+       alt="Arquitetura de Monitoramento" 
+       width="900">
+</p>
+
+<p align="center">
+  <em>Figura 1 – Arquitetura de monitoramento baseada em ThingSpeak, Node-RED e Telegram.</em>
+</p>
+
+## Arquitetura do Sistema - 04
 
 ![Arquitetura de Monitoramento](docs/arquitetura_de_monitoramento_iot_via_telegram.png)
 
