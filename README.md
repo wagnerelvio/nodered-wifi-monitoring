@@ -19,7 +19,7 @@ Quando uma condição anormal é identificada, o Node-RED gera automaticamente u
 O sistema também envia relatórios periódicos com os valores atuais das principais variáveis monitoradas.
 ## Arquitetura do Sistema
 
-![Arquitetura de Monitoramento](docs/imagens/arquitetura_de_monitoramento_iot_via_telegram.png)
+![Arquitetura de Monitoramento](docs/arquitetura_de_monitoramento_iot_via_telegram.png)
 
 ## Arquitetura
 
