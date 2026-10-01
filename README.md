@@ -18,7 +18,7 @@ Quando uma condição anormal é identificada, o Node-RED gera automaticamente u
 
 O sistema também envia relatórios periódicos com os valores atuais das principais variáveis monitoradas.
 
-## O fluxo d nós no NodeRED
+## O fluxo de nós no NodeRED
 O fluxo é composto pelos seguintes blocos principais:
 
 - consulta periódica ao ThingSpeak;
