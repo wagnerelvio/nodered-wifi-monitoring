@@ -18,6 +18,18 @@ Quando uma condição anormal é identificada, o Node-RED gera automaticamente u
 
 O sistema também envia relatórios periódicos com os valores atuais das principais variáveis monitoradas.
 
+<p align="center">
+  <img src="docs/fluxo_nodered_monitoramento.png"
+       alt="Fluxo implementado no Node-RED"
+       width="1000">
+</p>
+
+<p align="center">
+  <em>Figura 2 – Fluxo final implementado no Node-RED para supervisão e envio de alertas via Telegram.</em>
+</p>
+
+
+
 ## Arquitetura do Sistema - 02
 A Figura 1 apresenta a arquitetura geral do sistema de monitoramento.
 Os dados são obtidos do ThingSpeak, processados no Node-RED e utilizados
