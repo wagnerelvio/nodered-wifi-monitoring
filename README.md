@@ -18,6 +18,22 @@ Quando uma condição anormal é identificada, o Node-RED gera automaticamente u
 
 O sistema também envia relatórios periódicos com os valores atuais das principais variáveis monitoradas.
 
+## O fluxo d nós no NodeRED
+O fluxo é composto pelos seguintes blocos principais:
+
+- consulta periódica ao ThingSpeak;
+- requisição HTTP;
+- conversão dos dados JSON;
+- organização dos dados;
+- monitoramento de RSSI;
+- monitoramento de RTT;
+- monitoramento de ACK;
+- detecção de ausência de novos pacotes;
+- geração de relatório periódico;
+- depuração das mensagens;
+- envio de alertas pelo Telegram.
+
+
 <p align="center">
   <img src="docs/fluxo_nodered_monitoramento.png"
        alt="Fluxo implementado no Node-RED"
